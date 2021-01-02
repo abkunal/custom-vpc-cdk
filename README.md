@@ -1,7 +1,7 @@
 
-# Welcome to your CDK Python project!
+# Creating Custom VPC with AWS CDK!
 
-This is a blank project for Python development with CDK.
+This is a CDK project in Python to create a custom VPC
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
@@ -54,5 +54,3 @@ command.
  * `cdk deploy`      deploy this stack to your default AWS account/region
  * `cdk diff`        compare deployed stack with current state
  * `cdk docs`        open CDK documentation
-
-Enjoy!
