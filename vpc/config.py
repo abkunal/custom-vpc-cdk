@@ -81,7 +81,7 @@ SUBNET_CONFIGURATION = {
         }
     },
     PRIVATE_SUBNET: {
-        'availability_zone': 'us-east-1b', 'cidr_block': '10.0.2.0/24', 'map_public_ip_on_launch': True,
+        'availability_zone': 'us-east-1b', 'cidr_block': '10.0.2.0/24', 'map_public_ip_on_launch': False,
         'route_table_id': PUBLIC_ROUTE_TABLE,
         'instances': {
             PRIVATE_INSTANCE: {
